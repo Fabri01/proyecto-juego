@@ -1,109 +1,33 @@
-*{
-   text-align: center;
-   color: white;
-    padding: 0rem 0rem 0rem 0rem;
-    margin: 0rem 0rem 0rem 0rem;
+.carousel-inner {
+    width: ;
+}
+
+.card{
+    background: #acb6e5;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 20rem;}
+
+    &:hover{
+        transition: 1s;
+        width: 21rem;
                      }
+  .card-text{
+    padding-right: 1rem;
+    margin-right: 3rem;
+    color: black;
+               }
+  .card-title{
+    color: black;
+              }
 
-
-body{
-   font-family: Arial, Helvetica ;
-   background-color: #011B3B;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: 150%;
-
-   }
-
-.menu{
-   list-style: none;
-   padding: 0;
-   margin: auto;
-   margin-top: 30px;
-   margin-bottom: 30px;
-   background: #092327;
-   width: 90%;
-   max-width: 425px;
+.pagination {
+    display: flex;
+    justify-content: center;
 
 }
-
-.menu li a {
-   text-decoration: none;
-
-   color: white;
-   padding: 23px;
-   display: block;
-
-}
-
-.menu li {
-   display: inline-block;
-   text-align: center;
-}
-
-.menu li a:hover {
-   background: #ef8354;
-}
-
-
-
-
-.slider {
-   width: 29%;
-   margin: auto;
-   overflow: hidden;
-}
-
-.slider ul {
-   display: flex;
-   padding: 0;
-   width: 400%;
-
-   animation: cambio 20s infinite;
-}
-
-.slider li {
-   width: 100%;
-   list-style: none;
-}
-
-.slider img {
-   width: 100%;
-}
-
-@keyframes cambio {
-   0% {margin-left: 0;}
-   20% { margin-left: 0;}
-
-   25% {margin-left: -100%;}
-   45% {margin-left: -100%;}
-
-   50% {margin-left: -100%;}
-   70% {margin-left: -100%;}
-
-   75% {margin-left: -100%;}
-   100% {margin-left: -100%;}
-}
-
-
-
-.horizontaL-Editar{
-   display: flex;
-  text-decoration: none;
-  list-style: none;
-  background-color: #0E3462;
-  border: solid 3px #011B3B;
-  padding: 0rem 0rem 0rem 0rem;
-  margin: 0rem 1rem 0rem 1rem;
-}
-
-
-
-.page-2 {  
-   display: inline; 
-   font-size: 1rem;
-   padding: 0rem 1rem 0rem 1rem;
-   margin: 0rem 0rem 0rem 0rem;
-                 }
-               
-                 
