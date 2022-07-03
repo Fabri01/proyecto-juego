@@ -1,9 +1,5 @@
-@font-face{
-   font-family: GAMERIA;
-   src: url('GAMERIA.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Iceberg&family=Smooch&display=swap');
 
-
-.fondO-Para-Todo{
-   font-family: ;
+*{
+   font-family: 'Bebas Neue', cursive;
 }
